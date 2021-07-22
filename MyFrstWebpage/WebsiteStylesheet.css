@@ -3,18 +3,57 @@
 html {
     background-color: #38211e;
 }
+body {
+    overflow: auto;
+}
 h1 {
     text-align: center;
     font-size: 100px;
     color: #b65054;
     border: 2px solid white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 700px;
+    font-family: 'Zen Loop', cursive;
+    width: 400px;
     margin: 0px auto 0px auto;
 }
-p {
-    color: white;
+h1#productHeader {
+    text-align: center;
+    font-size: 100px;
+    color: #b65054;
+    border: 2px solid white;
+    font-family: 'Zen Loop', cursive;
+    width: 400px;
+    margin: 0px auto 0px auto;
+    float: left;
+}
+h3 {
+    float: left;
+    color: #e2696d;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+p#homeParagraph {
+    color: #e2696d;
     font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    border: 1px solid white;
+}
+p#productParagraph {
+    clear: left;
+    font-size: 17px;
+    color: #e2696d;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    border: 1px solid white;
+}
+p#aboutParagraph {
+    clear: left;
+    color: #e2696d;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: left;
+    margin-left: 5px;
 }
 nav ul li a {
     color: #e2696d;
@@ -27,12 +66,93 @@ nav ul li a {
     text-align: center;
 }
 nav {
+    float: left;
+    clear: both;
     width: 95%;
-    margin: -3% auto 0% auto;
+    margin: -6% auto 0% auto;
 }
- nav ul li {
+nav ul li {
     display: inline;
     float: left;
     margin: 20px;
     padding: 100px;
+}
+a#homeLink:hover {
+    outline: crimson solid 5px;
+}
+a#productLink:hover {
+    outline: crimson solid 5px;
+}
+a#aboutLink:hover {
+    outline: crimson solid 5px;
+}
+a#imagesLink:hover {
+    outline: crimson solid 5px;
+}
+aside {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    clear: left;
+    display: block;
+    height: 260px;
+}
+img {
+    padding-right: 10px;
+}
+img#Arabicabeans:hover {
+    outline: crimson solid 5px;
+}
+img#CostaRicanbeans:hover {
+    outline: crimson solid 5px;
+}
+img#Bourbonbeans:hover {
+    outline: crimson solid 5px;
+}
+img#Geishabeans:hover {
+    outline: crimson solid 5px;
+}
+img#Arabicabeans, img#CostaRicanbeans, img#Bourbonbeans, img#Geishabeans {
+    float: left;
+    clear: left;
+}
+div#bobImageblock {
+    color: #e2696d;
+    clear: left;
+}
+div#bobImageblock3 { 
+    clear: left;
+    width: 123px;
+    margin-left: 1356px;
+}
+div#bobimageblock2 {
+    width: 350px;
+}
+img#bobSmith {
+    position: absolute;
+    right: 0px;
+    clip: rect(60px, 233px, 255px, 110px);
+}
+h2#bobText {
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -30px;
+}
+p#beansText1, p#beansText2, p#beansText3, p#beansText4  {
+    float: left;
+    clear: left;
+    border: 1px solid white;
+    color: #e2696d;
+}
+h2#beansHead1, h2#beansHead2, h2#beansHead3, h2#beansHead4 {
+    float: left;
+    clear: left;
+    border: 1px solid white;
+    color: #e2696d;
+    font-family: 'Zen Loop', cursive;
+}
+p#imagesText1, p#imagesText2, p#imagesText3, p#imagesText4 {
+    color: #e2696d;
+    border: 2px solid white;
 }

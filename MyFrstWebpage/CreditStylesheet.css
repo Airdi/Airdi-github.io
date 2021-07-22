@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+section {
+    color: #e2696d;
+    float: left;
+}
+h1#paymentHead {
+    text-align: center;
+    font-size: 100px;
+    color: #b65054;
+    border: 2px solid white;
+    font-family: 'Zen Loop', cursive;
+    width: 400px;
+    margin-bottom: 25px;
+}
+fieldset#billing {
+    float: left;
+}
+label {
+    float: left;
+    clear: left;
+    text-align: right;
+    margin-right: 5px;
+}
+form#payment input, form#payment select {
+    display: block;
+    float: left;
+}
+legend#creditcardlegend {
+    float: left;
+    clear: left;
+}
+fieldset#creditCard {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+}
+input text {
+    border: 1px solid white;
+}
+input#firstBox, input#lastBox, input#streetBox, input#streetBox2, input#cityBox, input#stateBox, input#zipBox, input#countryBox, input#phoneBox, input#cardBox, input#cscBox {
+    background-color: #38211e;
+    color: white;
+    outline: 1px solid white;
+    margin-bottom: 10px;
+}
+select#monthList, select#yearList {
+    background-color: #38211e;
+    color: white;
+    outline: 1px solid white;
+    margin-bottom: 10px;
+}
+button#submitButton {
+    float: left;
+    clear: left;
+    margin-top: 5px;
+    background-color: #e2696d;
+}
