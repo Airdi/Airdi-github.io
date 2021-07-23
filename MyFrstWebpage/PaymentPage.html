@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="WebsiteStylesheet.css" rel="stylesheet"/>
-    <link href="favicon-256x256.png" rel="icon" type="image/x-icon"/>
-    <link href="CreditStylesheet.css" rel="stylesheet"/>
+    <link href="WebsiteStylesheet.css" rel="stylesheet" />
+    <link href="favicon-256x256.png" rel="icon" type="image/x-icon" />
+    <link href="CreditStylesheet.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
-    <title>PaymentPage</title>
+    <title>Payment Page</title>
 </head>
 
 <body>
@@ -35,13 +35,15 @@
                 <label>Country&nbsp;</label>
                 <input type="text" name="country" id="countryBox" value="Canada" required>
                 <label>Phone&nbsp;</label>
-                <input type="tel" id="phoneBox" name="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
+                <input type="tel" id="phoneBox" name="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                    required>
                 <datalist id="stateList">BC, AL, SA, MA, ON, QU, NB, NS, PEI, NL, YK, NT, NV</datalist>
-             </fieldset>
-             <fieldset id="creditCard">
+            </fieldset>
+            <fieldset id="creditCard">
                 <legend id="creditcardLegend">Credit Card (required)</legend>
                 <label>Credit Card Number&nbsp;</label>
-                <input type="text" id="cardBox" name="cardNumber" required pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
+                <input type="text" id="cardBox" name="cardNumber" required
+                    pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
                 <label for="monthList">Expiration Date&nbsp;</label>
                 <select id="monthList" class="cardMonth" required>
                     <option value="">--Month--</option>
@@ -69,8 +71,8 @@
                 </select>
                 <label>CSC&nbsp;</label>
                 <input type="text" id="cscBox" pattern="^\d{3}$" maxlength="3" placeholder="nnn">
-             </fieldset>
-             <button type="submit" id="submitButton">Submit</button>
+            </fieldset>
+            <button type="submit" id="submitButton">Submit</button>
         </form>
     </section>
 </body>
