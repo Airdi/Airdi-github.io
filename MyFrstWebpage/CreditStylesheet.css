@@ -39,7 +39,6 @@ input text {
     border: 1px solid white;
 }
 input#firstBox, input#lastBox, input#streetBox, input#streetBox2, input#cityBox, input#stateBox, input#zipBox, input#countryBox, input#phoneBox, input#cardBox, input#cscBox {
-    background-color: #38211e;
     color: white;
     outline: 1px solid white;
     margin-bottom: 10px;
@@ -56,3 +55,13 @@ button#submitButton {
     margin-top: 5px;
     background-color: #e2696d;
 }
+input {
+    background-color: #38211e;
+}
+input:focus:valid {
+    background: rgb(18, 85, 18) url(sb_valid.png) right no-repeat;
+}
+input:focus:invalid {
+    background: rgb(163, 16, 16) url(sb_invalid.png) right no-repeat;
+}
+/* sb_valid.png image and sb_invalid.png image taken from Assignment 7 (Spice Bowl Payment Form) */

@@ -97,9 +97,6 @@ aside {
     display: block;
     height: 260px;
 }
-img {
-    padding-right: 10px;
-}
 img#Arabicabeans:hover {
     outline: crimson solid 5px;
 }
