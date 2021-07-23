@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@media screen and (min-width: 600px) {
+    h1, h1#productHeader {
+        font-size: 50px;
+    }
+}
 html {
     background-color: #38211e;
 }
@@ -97,6 +102,9 @@ aside {
     display: block;
     height: 260px;
 }
+img {
+    width: 350px;
+}
 img#Arabicabeans:hover {
     outline: crimson solid 5px;
 }
@@ -112,6 +120,7 @@ img#Geishabeans:hover {
 img#Arabicabeans, img#CostaRicanbeans, img#Bourbonbeans, img#Geishabeans {
     float: left;
     clear: left;
+    width: 350px;
 }
 div#bobImageblock {
     color: #e2696d;
@@ -129,6 +138,7 @@ img#bobSmith {
     position: absolute;
     right: 0px;
     clip: rect(60px, 233px, 255px, 110px);
+    width: 350px;
 }
 h2#bobText {
     border: 1px solid white;
